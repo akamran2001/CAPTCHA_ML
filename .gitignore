@@ -1,3 +1,5 @@
 .venv/
 *.DS_store
 segmentation/ckpt/*
+pycache/*
+segmentation/mit_semseg
