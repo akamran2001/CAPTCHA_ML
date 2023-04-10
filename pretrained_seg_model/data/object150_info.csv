@@ -15,7 +15,7 @@ Idx,Ratio,Train,Val,Stuff,Name
 14,0.0151,1804,190,1,earth;ground
 15,0.0118,6666,796,0,door;double;door
 16,0.0110,4269,411,0,table
-17,0.0109,1691,160,1,mountain;mount
+17,0.0109,1691,160,1,mountain;mount;hill
 18,0.0104,3999,441,0,plant;flora;plant;life
 19,0.0104,2149,217,0,curtain;drape;drapery;mantle;pall
 20,0.0103,3261,318,0,chair
