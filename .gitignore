@@ -1,3 +1,5 @@
 .venv/
 *.DS_store
-segmentation/ckpt/*
+pretrained_seg_model/ckpt/*
+pycache/*
+captchas/recaptcha/*
