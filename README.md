@@ -11,7 +11,7 @@
 - `recaptcha.ipynb` classifies Google reCAPTCHAs composed of images of real-world objects.
 - Uses a pre-trained image segmentation model trained on the MIT image segmentation dataset with over 150 classes.
 - Is able to solve 3x3 captchas composed of multiple images, of 4x4 captchas where one image is broken down into a grid.
-- ![reCAPTCHA examples](https://developers.nopecha.com/static/recaptcha.png)
+- !['reCAPTCHA examples'](https://developers.nopecha.com/static/recaptcha.png)
 
 - Examples:
     - !['Bus'](outputs/recaptcha_bus.png)
@@ -24,6 +24,7 @@
 - This was our first attempt at classifying images of real-world objects.
 - Has low accuracy (hovering around 50%).
 - Has a limited number of classes in our dataset: https://www.kaggle.com/datasets/mikhailma/test-dataset
+- !['image captchas'](outputs/image_captcha_outdated.png)
   
 ### CAPTCHA Classifier
 - `captcha_type.ipynb` classifies if a CAPTCHA is alphanumeric, 3x3 reCAPTCHA (non-segmented images), or 4x4 reCAPTCHA (one segmented image).
