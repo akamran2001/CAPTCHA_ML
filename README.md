@@ -58,3 +58,16 @@
 # Usage
 - Download all the required libraries using ```pip install -r requirements.txt```
 - Install [tensorflow](https://www.tensorflow.org/install)
+
+# To Do
+- We need to expand the number of classes since the MIT ADE20K Dataset does not include all classnames that a CAPTCHA might have
+- We need to be able to translate between reCAPTCHA prompts and classes in our dataset
+  - For example the prompt might say "mountains or hills" but our model needs prompt like "mountain"
+  - This could be done in the following way:
+    - If it's a one word prompt like "buses" we can singularize it to "bus". This can be done with the `inflect` library
+    - It it's multiple words like "mountains or hill" we can split along the conncetive word "or" and make the words singular
+    - For some words like "traffic light" we need manually add them to the dataset
+      - The class names file might have a row like ```137,0.0003,528,65,0,traffic;light;traffic;signal;stoplight``` and we can add 'traffic light' to the list
+- If we add new original classes that don't have a synonymous word for in our dataset, like 'crosswalk' we will need to train on new labeled images. Since our data collection method (web scraping) does not come with ground truth labels we have to manually label data.
+- We can fill in the gaps in our MIT ADE20K segmentation model, with another pre-trained model from Hugging Face to avoid the manual data labeling task.
+  
