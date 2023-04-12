@@ -3,3 +3,4 @@
 pretrained_seg_model/ckpt/*
 pycache/*
 captchas/recaptcha/*
+model.png
