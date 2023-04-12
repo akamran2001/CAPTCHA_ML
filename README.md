@@ -5,13 +5,19 @@
 
 ## Alphanumeric CAPTCHAs
 - ```letter_captchas.ipynb``` classifies CAPTCHAs composed of letters and numbers 
+- Example:
+  !['Letter Captcha Accuracy'](outputs/letter_captchas.png)
 
 ## Goggle reCAPTCHAs
 - ```recaptcha.ipynb``` classifies Google reCAPTCHAs composes of images of real world objects
 - Uses a pre-trained image segmentation [model](https://github.com/CSAILVision/semantic-segmentation-pytorch) trained on the MIT image segmentation datatset with over 150 classes
 - Is able to solved 3x3 captchas composed of multiple images, of 4x4 captchas where one image is broken down into a grid
-- ![reCAPTCHA examples](https://developers.nopecha.com/static/recaptcha.png)
-- Install model ```pip install git+https://github.com/CSAILVision/semantic-segmentation-pytorch.git@master```
+    ![reCAPTCHA examples](https://developers.nopecha.com/static/recaptcha.png)
+- Examples:
+    !['Bus'](outputs/recaptcha_bus.png)
+    !['Car'](outputs/recaptcha_car.png)
+    !['Hill'](outputs/recaptcha_hill.png)
+    !['Traffic'](outputs/recaptcha_traffic.png)
   
 ## Image CAPTCHAs (outdated)
 - ```image_captchas.ipynb``` classifies CAPTCHAs that are images of objects in real life 
@@ -45,3 +51,7 @@
   - Semantic Understanding of Scenes through ADE20K Dataset. B. Zhou, H. Zhao, X. Puig, T. Xiao, S. Fidler, A. Barriuso and A. Torralba. International Journal on Computer Vision (IJCV), 2018. (https://arxiv.org/pdf/1608.05442.pdf)
   - Scene Parsing through ADE20K Dataset. B. Zhou, H. Zhao, X. Puig, S. Fidler, A. Barriuso and A. Torralba. Computer Vision and Pattern Recognition (CVPR), 2017. (http://people.csail.mit.edu/bzhou/publication/scene-parse-camera-ready.pdf)
 - Inspiration for model design of Alphanumeric CAPTCHA classifier https://github.com/DrMahdiRezaei/Deep-CAPTCHA/blob/master/Captcha_Solver_numerical.ipynb
+
+# Usage
+- Download all the required libraries using ```pip install -r requirements.txt```
+- Install [tensorflow](https://www.tensorflow.org/install)
