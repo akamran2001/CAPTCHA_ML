@@ -11,14 +11,13 @@
 - `recaptcha.ipynb` classifies Google reCAPTCHAs composed of images of real-world objects.
 - Uses a pre-trained image segmentation model trained on the MIT image segmentation dataset with over 150 classes.
 - Is able to solve 3x3 captchas composed of multiple images, of 4x4 captchas where one image is broken down into a grid.
-  
-  ![reCAPTCHA examples](https://developers.nopecha.com/static/recaptcha.png)
+- ![reCAPTCHA examples](https://developers.nopecha.com/static/recaptcha.png)
 
-  Examples:
-    !['Bus'](outputs/recaptcha_bus.png)
-    !['Car'](outputs/recaptcha_car.png)
-    !['Hill'](outputs/recaptcha_hill.png)
-    !['Traffic'](outputs/recaptcha_traffic.png)
+- Examples:
+    - !['Bus'](outputs/recaptcha_bus.png)
+    - !['Car'](outputs/recaptcha_car.png)
+    - !['Hill'](outputs/recaptcha_hill.png)
+    - !['Traffic'](outputs/recaptcha_traffic.png)
 
 ### Image CAPTCHAs (outdated)
 - `image_captchas.ipynb` classifies CAPTCHAs that are images of objects in real life. 
