@@ -115,7 +115,7 @@ Idx,Ratio,Train,Val,Stuff,Name
 114,0.0005,80,9,1,waterfall;falls
 115,0.0005,59,3,0,tent;collapsible;shelter
 116,0.0005,531,72,0,bag
-117,0.0005,282,30,0,minibike;motorbike
+117,0.0005,282,30,0,minibike;motorbike;motorcycle 
 118,0.0005,73,7,0,cradle
 119,0.0005,435,44,0,oven
 120,0.0005,136,25,0,ball
@@ -135,7 +135,7 @@ Idx,Ratio,Train,Val,Stuff,Name
 134,0.0004,268,27,0,hood;exhaust;hood
 135,0.0003,1020,108,0,sconce
 136,0.0003,1282,122,0,vase
-137,0.0003,528,65,0,traffic;light;traffic;signal;stoplight
+137,0.0003,528,65,0,traffic;light;traffic;signal;stoplight;traffic lights
 138,0.0003,453,57,0,tray
 139,0.0003,671,100,0,ashcan;trash;can;garbage;can;wastebin;ash;bin;ash-bin;ashbin;dustbin;trash;barrel;trash;bin
 140,0.0003,397,44,0,fan
